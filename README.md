@@ -4,7 +4,7 @@ This wiki/repo contains a collection of my modding notes written for rFactor 2, 
 
 Most of notes here utilized opensource and free software.
 
-Wiki: https://github.com/s-victor/rF2ModdingNotes/wiki
+Start reading here: https://github.com/s-victor/rF2ModdingNotes/wiki
 
 Have fun modding.
 
