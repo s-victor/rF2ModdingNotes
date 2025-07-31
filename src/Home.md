@@ -17,6 +17,9 @@ S.Victor
 * [[Create-road-material]]
 * [[Apply-IBL-tyre-shader]]
 
+# Car Creation
+* [[Mirror-UV-map-and-resolution]]
+
 # Track Creation
 * [[Point-to-point-timing-setup]]
 
