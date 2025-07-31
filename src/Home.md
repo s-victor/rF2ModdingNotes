@@ -10,6 +10,7 @@ S.Victor
 
 # Animation Creation
 * [[Create-3D-animation]]
+* [[Create-sequenced-animation-using-IBL-shaders]]
 
 # PBR Creation
 * [[Create-PBR-material]]
