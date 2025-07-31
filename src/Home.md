@@ -19,6 +19,7 @@ S.Victor
 
 # Car Creation
 * [[Mirror-UV-map-and-resolution]]
+* [[Create-and-adjust-image-font]]
 
 # Track Creation
 * [[Point-to-point-timing-setup]]
