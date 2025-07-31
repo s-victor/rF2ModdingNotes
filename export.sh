@@ -1,5 +1,8 @@
 #!/bin/bash
-echo -e "Parse and export markdown file for github wiki"
+echo "Parse and export markdown file for github wiki"
+
+# Create export folder if not exist
+mkdir -p "export"
 
 # Get repo path
 PATH_REPO="$( git config --get remote.origin.url | sed 's/rF2ModdingNotes.git/rF2ModdingNotes/' )"
@@ -10,7 +13,8 @@ PATH_REL=$(echo "../images/" | sed 's/\//\\\//g')
 PATH_ABS=$(echo "${PATH_REPO}/raw/master/images/" | sed 's/\//\\\//g')
 
 # Export files to ./export folder
-for SOURCE_MD in src/*.md; do
+for SOURCE_MD in src/*.md;
+do
     echo "SOURCE: ${SOURCE_MD}"
     EXPORT_PATH=$(echo "./export/${SOURCE_MD}" | sed 's/src\///')
     cp ${SOURCE_MD} ${EXPORT_PATH}

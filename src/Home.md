@@ -8,6 +8,9 @@ Have fun modding.
 
 S.Victor
 
+# Animation Creation
+* [[Create-3D-animation]]
+
 # PBR Creation
 * [[Create-PBR-material]]
 * [[Create-road-material]]
