@@ -20,6 +20,7 @@ S.Victor
 # Car Creation
 * [[Mirror-UV-map-and-resolution]]
 * [[Create-and-adjust-image-font]]
+* [[Fix-showroom-upgrades-overlapping]]
 
 # Track Creation
 * [[Point-to-point-timing-setup]]
