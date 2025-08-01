@@ -76,6 +76,6 @@ There is also another workaround: just hide the model in first upgrade level, so
 
 ## Additional notes about GEN upgrades tags
 
-There is a common missing understanding and use of `<STARTUPGRADES>` and `<STOPUPGRADES>` tags in **GEN** file, where some practices believe that those two tags are required for both main **XXX.GEN** and showroom **XXX_spinner.GEN** file.
+There is a common misunderstanding and use of `<STARTUPGRADES>` and `<STOPUPGRADES>` tags in **GEN** file, where some practices believe that those two tags are required for both main **XXX.GEN** and showroom **XXX_spinner.GEN** file.
 
 However that is not necessary, those two `<STARTUPGRADES>` and `<STOPUPGRADES>` tags are only required for **showroom GEN file**, which is **XXX_spinner.GEN**. It is no use and can be safely omitted from the main **XXX.GEN** file.

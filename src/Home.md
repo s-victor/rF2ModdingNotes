@@ -20,6 +20,7 @@ S.Victor
 # Car Creation
 * [[Mirror-UV-map-and-resolution]]
 * [[Create-and-adjust-image-font]]
+* [[Create-switchable-dashboard-backlights]]
 * [[Fix-showroom-upgrades-overlapping]]
 
 # Track Creation
