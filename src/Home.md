@@ -25,6 +25,7 @@ S.Victor
 
 # Track Creation
 * [[Point-to-point-timing-setup]]
+* [[Create-self-rotating-billboards-tree]]
 * [[Center-pivot-point-on-objects]]
 
 # Modding tools written by me
