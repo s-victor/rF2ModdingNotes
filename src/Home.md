@@ -25,6 +25,7 @@ S.Victor
 
 # Track Creation
 * [[Point-to-point-timing-setup]]
+* [[Center-pivot-point-on-objects]]
 
 # Modding tools written by me
 * [rF2CarIconGenerator](https://github.com/s-victor/rF2CarIconGenerator)
