@@ -22,6 +22,7 @@ S.Victor
 * [[Create-and-adjust-image-font]]
 * [[Create-switchable-dashboard-backlights]]
 * [[Fix-showroom-upgrades-overlapping]]
+* [[Fix-duplicated-cockpits-from-rF1]]
 
 # Track Creation
 * [[Point-to-point-timing-setup]]
