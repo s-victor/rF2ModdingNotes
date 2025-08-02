@@ -15,6 +15,7 @@ S.Victor
 # Animation Creation
 * [[Create-3D-animation]]
 * [[Create-sequenced-animation-using-IBL-shaders]]
+* [[Create-volumetric-lighting-and-dust-effect]]
 
 # PBR Creation
 * [[Create-PBR-material]]
