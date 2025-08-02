@@ -20,6 +20,7 @@ S.Victor
 * [[Create-PBR-material]]
 * [[Create-road-material]]
 * [[Apply-IBL-tyre-shader]]
+* [[Create-translucent-tree-material]]
 
 # Car Creation
 * [[Mirror-UV-map-and-resolution]]
