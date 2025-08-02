@@ -32,6 +32,7 @@ S.Victor
 * [[Reconstruct-road-surface]]
 * [[Point-to-point-timing-setup]]
 * [[Create-self-rotating-billboards-tree]]
+* [[Create-track-update-package]]
 
 # Modding tools written by me
 * [rF2CarIconGenerator](https://github.com/s-victor/rF2CarIconGenerator)
