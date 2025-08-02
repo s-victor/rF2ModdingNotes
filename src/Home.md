@@ -30,6 +30,7 @@ S.Victor
 
 # Track Creation
 * [[Reconstruct-road-surface]]
+* [[Merge-road-and-terrain-surface-gap]]
 * [[Point-to-point-timing-setup]]
 * [[Create-self-rotating-billboards-tree]]
 * [[Create-track-update-package]]
