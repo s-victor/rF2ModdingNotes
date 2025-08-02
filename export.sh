@@ -31,3 +31,14 @@ do
     sed -i "s/$PATH_REL/$PATH_ABS/" ${EXPORT_PATH}
     echo -e "EXPORT: ${EXPORT_PATH}\n"
 done
+
+echo "Generate Table of Content"
+echo "" >> "${FOLDER_PATH}/Home.md"
+cat "src/Menu.txt" >> "${FOLDER_PATH}/Home.md"
+echo "EXPORT: ${FOLDER_PATH}/Home.md"
+
+echo ""
+
+echo "Generate side bar"
+cp -f "src/Menu.txt" "${FOLDER_PATH}/_Sidebar.md"
+echo "EXPORT: ${FOLDER_PATH}/_Sidebar.md"
