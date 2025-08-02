@@ -35,6 +35,7 @@ S.Victor
 * [[Create-self-rotating-billboards-tree]]
 * [[Create-track-update-package]]
 * [[Set-initial-garage-position-in-AIW]]
+* [[Customize-driving-line-texture]]
 
 # Modding tools written by me
 * [rF2CarIconGenerator](https://github.com/s-victor/rF2CarIconGenerator)
