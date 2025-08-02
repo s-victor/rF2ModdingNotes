@@ -119,7 +119,13 @@ Note there is a line called "CUBETF_CHROMAKEY", this line is used to add "alpha 
 
 Also note that you can add sequenced animation to other material, such as normal map for water animation (you will add all those lines into sections that contains "Name":"normalMap", )
 
-One more note, currently for JSON file with sequenced animation, material editor can not edit them, if you change anything with material editor, those animation codes may be lost.
+## Important notes
+
+Currently for JSON file with sequenced animation, material editor can not edit them.
+
+Changing any parameter in material editor will cause animation to stop playing, and requires reloading track to get animation playing again.
+
+Changing shader type in material editor may result lossing the manually added animation code.
 
 ## Add Doubleside property to IBL shaders
 

@@ -42,3 +42,49 @@ Some times a track can have invisible hole or wall on track, while the track mod
 ## Track wall-stuck issue
 
 Wall-stuck issue is commonly seen on track mods, where vehicle body or wheels can clip into a wall and stuck. This issue is caused by object with double-side meshes (inner and outer faces). To fix, either remove the inner faces (if inner faces are invisible from view); or, separate inner faces from outer faces (as separated objects), then remove collision tag (set `CollTarget=False`) from inner faces GMT.
+
+## Raindrops appear too big on car body
+
+Raindrop size is determined by car body (WCCARBODY) UV map. If UV map on car parts is too small, it will cause big raindrops.
+
+## DXT5 or BC7 DDS format?
+
+Since rF2 introduced PBR rendering, BC7 DDS format becomes standard for Albedo map, along with BC5 for Nm/Aos/Mr map. While DXT5 (or DXT1) is mostly used in old mods which gives less quality than BC7/BC5.
+
+The easiest way is to use rF2 "MapConverter" which takes care of all the DDS format issue automatically. Just make sure each texture has the correct naming convention (suffix) as outlined in rF2 official guide.
+
+## Missing UV channels
+
+A common issue when working with old mods is that, sometimes a model doesn't contain UV map in secondary UV channels (channel 2, 3 ,4). And those missing UV channels can cause certain material shader not working correctly. For example, if a shader uses channel 2 for mapping normal map texture, but the 3D model doesn't have UV map in channel 2, then normal map cannot be rendered correctly.
+
+There are a few methods to add back missing UV channels.
+
+In blender:
+1. Delete all secondary UV channels with "-" button from UV channel panel.
+2. Click "+" button 3 times from UV channel panel, which will duplicate first channel.
+3. (Optional)Rename the 3 new UV channel names for consistency and readability.
+
+In 3dsimed:
+1. Select object material, open "Material Edit" panel on the right
+2. Click "Edit Channel Texture Coordinates" button, select "Copy UV" and "Copy UV channel 0 > 1", repeat this for "Copy UV channel 0 > 2", "Copy UV channel 0 > 3".
+3. Save and export GMT object.
+
+## Floating wheels in showroom
+
+This is caused by missing pivot point from tyre/wheel/spindle objects. While rF2 can automatically calculate and add missing pivot point to those objects, it will however not applied to showroom. So to fix, manually add pivot point (at the center of each tyre) those objects.
+
+## Misaligned steering wheel rotation along the axis
+
+To fix, first measure the steering wheel axis angle (degree) from side view.
+
+Then open `cockpitinfo.ini` file, find `SteeringWheelAxis=` line, then calculate `Sine` and `Cosine` of the axis angle, and put then in second and third values.
+
+For example, if steering wheel axis angle is 20 degrees, then it will be:
+
+> sin(20deg) = 0.3420
+
+> cos(20deg) = 0.9396
+
+And final setting:
+
+> SteeringWheelAxis=(0, 0.3420, 0.9396)
