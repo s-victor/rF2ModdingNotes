@@ -34,6 +34,7 @@ S.Victor
 * [[Point-to-point-timing-setup]]
 * [[Create-self-rotating-billboards-tree]]
 * [[Create-track-update-package]]
+* [[Set-initial-garage-position-in-AIW]]
 
 # Modding tools written by me
 * [rF2CarIconGenerator](https://github.com/s-victor/rF2CarIconGenerator)
