@@ -8,6 +8,10 @@ Have fun modding.
 
 S.Victor
 
+# General
+* [[Common-modding-issues]]
+* [[Center-pivot-point-on-objects]]
+
 # Animation Creation
 * [[Create-3D-animation]]
 * [[Create-sequenced-animation-using-IBL-shaders]]
@@ -27,7 +31,6 @@ S.Victor
 # Track Creation
 * [[Point-to-point-timing-setup]]
 * [[Create-self-rotating-billboards-tree]]
-* [[Center-pivot-point-on-objects]]
 
 # Modding tools written by me
 * [rF2CarIconGenerator](https://github.com/s-victor/rF2CarIconGenerator)
