@@ -34,11 +34,5 @@ done
 
 echo "Generate Table of Content"
 echo "" >> "${FOLDER_PATH}/Home.md"
-cat "src/Menu.txt" >> "${FOLDER_PATH}/Home.md"
+cat "src/_Sidebar.md" >> "${FOLDER_PATH}/Home.md"
 echo "EXPORT: ${FOLDER_PATH}/Home.md"
-
-echo ""
-
-echo "Generate side bar"
-cp -f "src/Menu.txt" "${FOLDER_PATH}/_Sidebar.md"
-echo "EXPORT: ${FOLDER_PATH}/_Sidebar.md"
