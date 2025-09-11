@@ -4,6 +4,7 @@
 
 # Animation Creation
 * [[Create 3D animation]]
+* [[Create 3D fireworks]]
 * [[Create sequenced animation using IBL shaders]]
 * [[Create volumetric lighting and dust effect]]
 
