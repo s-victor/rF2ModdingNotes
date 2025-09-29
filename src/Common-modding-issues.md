@@ -10,6 +10,10 @@ This can be caused by missing "cap end of path segment" from track AIW file. To 
 
 This can happen if the shadow is cast from a single big object. To fix, split the single object into multiple smaller objects.
 
+## Disable "Receive Shadows" in IBL Shader
+
+There is a workaround to disable "receive shadows" for any IBL shaders material. Just set "NormalShadowInfluence" value to something like 1000 or 10000 (depends how much you want to hide shadows related to sun angle), which offsets shadow projection far away from object's surface so shadows don't show. This can be done in "material editor" or manually editing material JSON file.
+
 ## Car or track mod setting or file not taking effect after changed
 
 There are several mod settings from car and track that require a full-restart of game's DEV MODE to take effect. Those includes:
